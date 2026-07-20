@@ -21,7 +21,7 @@ CSS3
 JavaScript (ES6)
 Font Awesome
 Google Fonts
-📁 Project Structure
+Project Structure
 Foodie/
 │── index.html
 │── menu.html
