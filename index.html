@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie - Food Ordering Website</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <header>
+
+        <div class="logo">
+            <i class="fa-solid fa-bowl-food"></i>
+            Foodie
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#offers">Offers</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="icons">
+
+            <input type="text" id="searchBox" placeholder="Search food...">
+
+            <i class="fa-solid fa-magnifying-glass" id="searchBtn"></i>
+
+            <a href="cart.html">
+                <i class="fa-solid fa-cart-shopping"></i>
+            </a>
+
+            <a href="login.html">
+                <button>Login</button>
+            </a>
+
+        </div>
+
+    </header>
+
+    <!-- Hero -->
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <h1>Delicious Food Delivered To Your Door</h1>
+
+            <p>
+                Order fresh and tasty meals from your favourite restaurants.
+                Fast delivery within 30 minutes.
+            </p>
+
+            <button>Order Now</button>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="burger.png" alt="Burger">
+
+        </div>
+
+    </section>
+
+    <!-- Categories -->
+
+    <section class="categories">
+
+        <h2>Popular Categories</h2>
+
+        <div class="category-container">
+
+            <div class="category-card">
+                <i class="fa-solid fa-pizza-slice"></i>
+                <h3>Pizza</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-burger"></i>
+                <h3>Burger</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-drumstick-bite"></i>
+                <h3>Chicken</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-ice-cream"></i>
+                <h3>Ice Cream</h3>
+            </div>
+
+            <div class="category-card">
+                <i class="fa-solid fa-mug-hot"></i>
+                <h3>Coffee</h3>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Menu -->
+
+    <section id="menu">
+
+        <h2>Popular Foods</h2>
+
+        <div class="food-container">
+
+            <div class="food-card">
+
+                <img src="pizza.jpg">
+
+                <h3>Cheese Pizza</h3>
+
+                <p>₹349</p>
+
+                <button>Add To Cart</button>
+
+            </div>
+
+            <div class="food-card">
+
+                <img src="chickenburger.jpg">
+
+                <h3>Chicken Burger</h3>
+
+                <p>₹399</p>
+
+                <button>Add To Cart</button>
+
+            </div>
+
+            <div class="food-card">
+
+                <img src="pasta.jpg">
+
+                <h3>Italian Pasta</h3>
+
+                <p>₹299</p>
+
+                <button>Add To Cart</button>
+
+            </div>
+
+            <div class="food-card">
+
+                <img src="biryani.jpg">
+
+                <h3>Chicken Biryani</h3>
+
+                <p>₹349</p>
+
+                <button>Add To Cart</button>
+
+            </div>
+
+            <div class="food-card">
+
+                <img src="haaka.jpg">
+
+                <h3>Hakka Noodles</h3>
+
+                <p>₹399</p>
+
+                <button>Add To Cart</button>
+
+            </div>
+
+            <div class="food-card">
+
+                <img src="cake.jpg">
+
+                <h3>Chocolate Cake</h3>
+
+                <p>₹199</p>
+
+                <button>Add To Cart</button>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Offer -->
+
+    <section id="offers">
+
+        <h2>Special Offer</h2>
+
+        <div class="offer">
+
+            <h1>Flat 50% OFF</h1>
+
+            <p>Use Coupon : FOOD50</p>
+
+            <button>Claim Offer</button>
+
+        </div>
+
+    </section>
+
+    <!-- About -->
+
+    <section id="about">
+
+        <h2>Why Choose Us?</h2>
+
+        <div class="about-container">
+
+            <div>
+
+                <i class="fa-solid fa-truck-fast"></i>
+
+                <h3>Fast Delivery</h3>
+
+                <p>Delivery in less than 30 minutes.</p>
+
+            </div>
+
+            <div>
+
+                <i class="fa-solid fa-utensils"></i>
+
+                <h3>Fresh Food</h3>
+
+                <p>Prepared with fresh ingredients.</p>
+
+            </div>
+
+            <div>
+
+                <i class="fa-solid fa-star"></i>
+
+                <h3>Top Rated</h3>
+
+                <p>10000+ Happy Customers.</p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact -->
+
+    <section id="contact">
+
+        <h2>Contact Us</h2>
+
+        <form>
+
+            <input type="text" placeholder="Your Name">
+
+            <input type="email" placeholder="Email">
+
+            <textarea placeholder="Message"></textarea>
+
+            <button>Send</button>
+
+        </form>
+
+    </section>
+
+    <!-- Footer -->
+
+    <footer>
+
+        <h3>Foodie</h3>
+
+        <p>© 2026 All Rights Reserved</p>
+
+        <div>
+
+            <i class="fa-brands fa-facebook"></i>
+
+            <i class="fa-brands fa-instagram"></i>
+
+            <i class="fa-brands fa-twitter"></i>
+
+            <i class="fa-brands fa-linkedin"></i>
+
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
